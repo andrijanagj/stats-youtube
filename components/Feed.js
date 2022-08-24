@@ -15,7 +15,7 @@ function Feed({ setSearch, fetchYoutuberData }) {
         </div>
 
         <div className="flex flex-col items-center justify-center ">
-          <form className="flex flex-col border-2 border-sky-100 rounded ">
+          <div className="flex flex-col border-2 border-sky-100 rounded ">
             <input
               placeholder="Search youtuber"
               className="px-4 py-2 w-[400px] outline-none rounded-md focus:shadow-sm focus:shadow-sky-200"
@@ -28,7 +28,7 @@ function Feed({ setSearch, fetchYoutuberData }) {
             >
               Search
             </button>
-          </form>
+          </div>
         </div>
       </div>
     </>
